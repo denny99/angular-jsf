@@ -1,0 +1,45 @@
+{
+  "name": "angular-jsf",
+  "version": "1.0.0",
+  "description": "JSF Compliant Angular Components",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denny99/angular-jsf.git"
+  },
+  "keywords": [
+    "angular",
+    "jsf"
+  ],
+  "author": "Denny Mueller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denny99/angular-jsf/issues"
+  },
+  "homepage": "https://github.com/denny99/angular-jsf#readme",
+  "devDependencies": {
+    "@angular/cli": "~1.7.3",
+    "@angular/compiler-cli": "^5.2.0",
+    "@angular/language-service": "^5.2.0",
+    "@types/angular": "^1.6.43",
+    "@types/jquery": "^3.3.1",
+    "@types/jqueryui": "^1.12.2",
+    "@types/lodash": "^4.14.106",
+    "@types/node": "^9.4.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "@angular/common": "^5.2.9",
+    "@angular/http": "^5.2.9",
+    "@angular/compiler": "^5.2.9",
+    "@angular/core": "^5.2.9",
+    "@angular/forms": "^5.2.9",
+    "@angular/platform-browser": "^5.2.9",
+    "@angular/platform-browser-dynamic": "^5.2.9",
+    "@angular/router": "~4.3.4",
+    "rxjs": "^5.5.6"
+  }
+}
