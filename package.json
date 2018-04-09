@@ -31,11 +31,20 @@
     "@types/jqueryui": "^1.12.2",
     "@types/lodash": "^4.14.106",
     "@types/node": "^9.4.7",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.0.4",
+    "codelyzer": "^4.2.1",
     "standard-version": "^4.2.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "^2.7.2",
-    "codelyzer": "^4.2.1"
+    "webpack": "^3.11.0",
+    "webpack-merge": "^3.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.5"

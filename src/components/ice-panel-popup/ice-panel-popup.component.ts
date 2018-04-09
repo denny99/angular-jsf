@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, ContentChildren, ElementRef, Input, OnChanges, OnInit, QueryList, ViewChild,} from '@angular/core';
+import {Component, ContentChildren, ElementRef, Input, OnChanges, QueryList, ViewChild,} from '@angular/core';
 import {HFormService} from '../../services/h-form.service';
 import {JsfElement} from '../../superclass/jsf-element';
 import {FFacetComponent} from '../f-facet/f-facet.component';
@@ -8,7 +8,7 @@ import {FFacetComponent} from '../f-facet/f-facet.component';
     templateUrl: './ice-panel-popup.component.html',
     styleUrls: ['./ice-panel-popup.component.css'],
 })
-export class IcePanelPopupComponent extends JsfElement implements OnInit, AfterViewInit, OnChanges {
+export class IcePanelPopupComponent extends JsfElement implements OnChanges {
     @Input()
     visible: boolean;
     @Input()
@@ -27,6 +27,11 @@ export class IcePanelPopupComponent extends JsfElement implements OnInit, AfterV
 
     constructor(hFormService: HFormService, elementRef: ElementRef) {
         super(hFormService, elementRef);
+
+        this.style = {
+            position: 'absolute',
+            display: 'none',
+        };
     }
 
     get body(): FFacetComponent {
@@ -36,17 +41,6 @@ export class IcePanelPopupComponent extends JsfElement implements OnInit, AfterV
             }
         }
         return null;
-    }
-
-    ngOnInit() {
-        this.style = {
-            position: 'absolute',
-            display: 'none',
-        };
-    }
-
-    ngAfterViewInit() {
-        super.ngAfterViewInit();
     }
 
     ngOnChanges() {

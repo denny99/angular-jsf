@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import ValidationResponse from '../../objects/validation-response';
+import {ValidationResponse} from '../../objects/validation-response';
 import {JsfCore} from '../../superclass/jsf-core';
 
 @Component({

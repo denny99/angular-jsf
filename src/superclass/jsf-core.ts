@@ -1,7 +1,7 @@
 import {AfterViewInit, ContentChildren, ElementRef, Input, OnInit, QueryList,} from '@angular/core';
 import {FEventComponent} from '../components/f-event/f-event.component';
 import {IJsfLifecycle} from '../interfaces/jsf-lifecycle';
-import ValidationResponse from '../objects/validation-response';
+import {ValidationResponse} from '../objects/validation-response';
 
 export abstract class JsfCore implements OnInit, AfterViewInit, IJsfLifecycle {
     @Input('id')
@@ -29,7 +29,7 @@ export abstract class JsfCore implements OnInit, AfterViewInit, IJsfLifecycle {
     async triggerEvent(type: string): Promise<ValidationResponse> {
         for (const event of this.events.toArray()) {
             if (event.type === type) {
-                return await event.listener(this);
+                return event.listener(this);
             }
         }
         return new ValidationResponse(false);

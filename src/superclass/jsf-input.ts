@@ -2,7 +2,7 @@ import {ContentChildren, ElementRef, EventEmitter, Input, Output, QueryList,} fr
 import {ControlValueAccessor, NgModel} from '@angular/forms';
 import {isNull, isUndefined} from 'lodash';
 import {FValidateRegexComponent} from '../components/f-validate-regex/f-validate-regex.component';
-import ValidationResponse from '../objects/validation-response';
+import {ValidationResponse} from '../objects/validation-response';
 import {HFormService} from '../services/h-form.service';
 import {MessageService} from '../services/message.service';
 import {JsfOutput} from './jsf-output';
