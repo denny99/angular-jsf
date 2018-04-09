@@ -34,7 +34,9 @@
     "standard-version": "^4.2.0"
   },
   "dependencies": {
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.5"
+  },
+  "peerDependencies": {
     "@angular/common": "^5.2.9",
     "@angular/http": "^5.2.9",
     "@angular/compiler": "^5.2.9",
