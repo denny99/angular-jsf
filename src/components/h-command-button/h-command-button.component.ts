@@ -1,7 +1,7 @@
 import {Component, ElementRef, EventEmitter, Input, Output,} from '@angular/core';
 import {Router} from '@angular/router';
 import {HFormService} from '../../services/h-form.service';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 
 @Component({
     selector: 'h-command-button',

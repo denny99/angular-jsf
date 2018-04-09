@@ -2,7 +2,7 @@ import {Component, ElementRef, forwardRef,} from '@angular/core';
 import {NG_VALUE_ACCESSOR} from '@angular/forms';
 import {HFormService} from '../../services/h-form.service';
 import {MessageService} from '../../services/message.service';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 import {JsfInput} from '../../superclass/jsf-input';
 import {HSelectBooleanCheckboxComponent} from '../h-select-boolean-checkbox/h-select-boolean-checkbox.component';
 

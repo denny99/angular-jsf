@@ -1,6 +1,6 @@
 import {Component, ContentChildren, ElementRef, Input, QueryList,} from '@angular/core';
 import {HFormService} from '../../services/h-form.service';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 import {FFacetComponent} from '../f-facet/f-facet.component';
 
 @Component({

@@ -2,7 +2,7 @@ import {AfterViewInit, ContentChild, ElementRef, Input} from '@angular/core';
 import {FConvertNumberComponent} from '../components/f-convert-number/f-convert-number.component';
 import {HFormService} from '../services/h-form.service';
 import {Converter} from './converter';
-import JsfElement from './jsf-element';
+import {JsfElement} from './jsf-element';
 
 export abstract class JsfOutput extends JsfElement implements AfterViewInit {
     @Input()

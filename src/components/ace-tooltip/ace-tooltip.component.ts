@@ -1,6 +1,6 @@
 import {AfterViewInit, Component, ElementRef, Input, OnInit,} from '@angular/core';
 import {HFormService} from '../../services/h-form.service';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 
 @Component({
     selector: 'ace-tooltip',

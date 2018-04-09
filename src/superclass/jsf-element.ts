@@ -3,7 +3,7 @@ import {FAjaxComponent} from '../components/f-ajax/f-ajax.component';
 import {HFormService} from '../services/h-form.service';
 import {JsfCore} from './jsf-core';
 
-export default abstract class JsfElement extends JsfCore {
+export abstract class JsfElement extends JsfCore {
     @Input()
     styleClass = '';
 

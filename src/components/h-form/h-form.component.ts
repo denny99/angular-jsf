@@ -3,7 +3,7 @@ import {IJsfLifecycle} from '../../interfaces/jsf-lifecycle';
 import {HFormService} from '../../services/h-form.service';
 import {MessageService} from '../../services/message.service';
 import {JsfCore} from '../../superclass/jsf-core';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 import {JsfInput} from '../../superclass/jsf-input';
 
 @Component({

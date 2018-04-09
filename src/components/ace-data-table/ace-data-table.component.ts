@@ -2,7 +2,7 @@ import {
     AfterContentInit, Component, ContentChildren, ElementRef, EventEmitter, Input, OnChanges, Output, QueryList,
     ViewChildren,
 } from '@angular/core';
-import ApiSearchResponse from '../../../entity/ApiSearchResponse';
+import {ApiSearchResponse} from '../../objects/api-search-response';
 import {JsfCore} from '../../superclass/jsf-core';
 import {AceColumnComponent} from '../ace-column/ace-column.component';
 import {PaginatorComponent} from '../datatable/paginator/paginator.component';

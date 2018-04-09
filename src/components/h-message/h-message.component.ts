@@ -3,7 +3,7 @@ import {Subscription} from 'rxjs/Subscription';
 import {ErrorMessage} from '../../objects/error-message';
 import {HFormService} from '../../services/h-form.service';
 import {MessageService} from '../../services/message.service';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 
 @Component({
     selector: 'h-message',

@@ -2,7 +2,7 @@ import {Component, ContentChildren, ElementRef, OnInit, QueryList,} from '@angul
 import {IJsfLifecycle} from '../../interfaces/jsf-lifecycle';
 import {JsfService} from '../../services/jsf.service';
 import {JsfCore} from '../../superclass/jsf-core';
-import JsfElement from '../../superclass/jsf-element';
+import {JsfElement} from '../../superclass/jsf-element';
 import {HFormComponent} from '../h-form/h-form.component';
 
 @Component({
