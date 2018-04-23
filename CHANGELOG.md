@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/denny99/angular-jsf/compare/v1.0.4...v1.1.0) (2018-04-23)
+
+
+### Features
+
+* added jsf template support ([8346ba1](https://github.com/denny99/angular-jsf/commit/8346ba1))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/denny99/angular-jsf/compare/v1.0.3...v1.0.4) (2018-04-09)
 
