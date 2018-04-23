@@ -2,7 +2,8 @@
   "apps": [
     {
       "name": "jsf",
-      "root": "src/"
+      "root": "src",
+      "appRoot": "components"
     }
   ]
 }

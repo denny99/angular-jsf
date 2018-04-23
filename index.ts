@@ -36,6 +36,7 @@ export {IcePanelPopupComponent} from './src/components/ice-panel-popup/ice-panel
 export {IceSelectBooleanCheckboxComponent} from './src/components/ice-select-boolean-checkbox/ice-select-boolean-checkbox.component';
 export {UiFragmentComponent} from './src/components/ui-fragment/ui-fragment.component';
 export {UiRepeatComponent} from './src/components/ui-repeat/ui-repeat.component';
+export {UiDefineComponent} from './src/components/ui-define/ui-define.component';
 export {HFormService} from './src/services/h-form.service';
 export {ConversationService} from './src/services/conversation.service';
 export {JsfService} from './src/services/jsf.service';
@@ -55,4 +56,5 @@ export {JsfElement} from './src/superclass/jsf-element';
 export {JsfInput} from './src/superclass/jsf-input';
 export {JsfOutput} from './src/superclass/jsf-output';
 export {JsfSelectOne} from './src/superclass/jsf-select-one';
+export {UiComposition} from './src/superclass/ui-composition';
 export {JsfModule} from './src/jsf.module';

@@ -37,6 +37,7 @@ import {IceOutputTextComponent} from './components/ice-output-text/ice-output-te
 import {IcePanelGroupComponent} from './components/ice-panel-group/ice-panel-group.component';
 import {IcePanelPopupComponent} from './components/ice-panel-popup/ice-panel-popup.component';
 import {IceSelectBooleanCheckboxComponent} from './components/ice-select-boolean-checkbox/ice-select-boolean-checkbox.component';
+import {UiDefineComponent} from './components/ui-define/ui-define.component';
 import {UiFragmentComponent} from './components/ui-fragment/ui-fragment.component';
 import {UiRepeatComponent} from './components/ui-repeat/ui-repeat.component';
 import {HFormService} from './services/h-form.service';
@@ -84,7 +85,8 @@ import {HFormService} from './services/h-form.service';
         UiRepeatComponent,
         IceSelectBooleanCheckboxComponent,
         IceCommandButtonComponent,
-        AceDialogComponent],
+        AceDialogComponent,
+        UiDefineComponent],
     declarations: [
         HFormComponent,
         HCommandButtonComponent,
@@ -123,7 +125,8 @@ import {HFormService} from './services/h-form.service';
         UiRepeatComponent,
         IceSelectBooleanCheckboxComponent,
         IceCommandButtonComponent,
-        AceDialogComponent],
+        AceDialogComponent,
+        UiDefineComponent],
     providers: [
         HFormService,
     ],
