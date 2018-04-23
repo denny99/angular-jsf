@@ -7,7 +7,7 @@ export abstract class UiComposition {
 
     getSection(name: string): UiDefineComponent {
         for (const section of this.sections.toArray()) {
-            if (section.name === 'name') {
+            if (section.name === name) {
                 return section;
             }
         }
