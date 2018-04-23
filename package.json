@@ -1,6 +1,6 @@
 {
   "name": "angular-jsf-components",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JSF Compliant Angular Components",
   "main": "index.ts",
   "scripts": {
