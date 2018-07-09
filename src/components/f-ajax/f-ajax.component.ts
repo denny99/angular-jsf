@@ -1,4 +1,4 @@
-import {Component, ElementRef, EventEmitter, Input, Output,} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {IAjaxEventParameter} from '../../interfaces/ajax-event-parameter';
 import {HFormService} from '../../services/h-form.service';
 import {JsfService} from '../../services/jsf.service';
@@ -9,7 +9,7 @@ import {JsfCore} from '../../superclass/jsf-core';
     templateUrl: './f-ajax.component.html',
     styleUrls: ['./f-ajax.component.css'],
 })
-export class FAjaxComponent extends JsfCore {
+export class FAjaxComponent {
     @Input()
     event = 'click';
     @Input()
@@ -25,9 +25,7 @@ export class FAjaxComponent extends JsfCore {
 
     this: object;
 
-    constructor(private hFormService: HFormService, private jsfService: JsfService,
-                elementRef: ElementRef) {
-        super(elementRef);
+    constructor(private hFormService: HFormService, private jsfService: JsfService) {
     }
 
     /**
