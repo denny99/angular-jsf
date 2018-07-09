@@ -3,7 +3,8 @@ import {
     ViewChildren,
 } from '@angular/core';
 import {ApiSearchResponse} from '../../objects/api-search-response';
-import {JsfCore} from '../../superclass/jsf-core';
+import {HFormService} from '../../services/h-form.service';
+import {JsfElement} from '../../superclass/jsf-element';
 import {AceColumnComponent} from '../ace-column/ace-column.component';
 import {PaginatorComponent} from '../datatable/paginator/paginator.component';
 import {FFacetComponent} from '../f-facet/f-facet.component';
@@ -13,7 +14,7 @@ import {FFacetComponent} from '../f-facet/f-facet.component';
     templateUrl: './ace-data-table.component.html',
     styleUrls: ['./ace-data-table.component.css'],
 })
-export class AceDataTableComponent extends JsfCore implements AfterContentInit, OnChanges {
+export class AceDataTableComponent extends JsfElement implements AfterContentInit, OnChanges {
     @Input()
     value: ApiSearchResponse<any> = new ApiSearchResponse<any>();
     @Output()
@@ -34,8 +35,8 @@ export class AceDataTableComponent extends JsfCore implements AfterContentInit, 
     private currentPage: number;
     private headers: Array<FFacetComponent> = [];
 
-    constructor(elementRef: ElementRef) {
-        super(elementRef);
+    constructor(hFormService: HFormService, elementRef: ElementRef) {
+        super(hFormService, elementRef);
     }
 
     ngAfterContentInit() {

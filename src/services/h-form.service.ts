@@ -20,7 +20,7 @@ export class HFormService {
         if (this.form && this.form.id) {
             // id given or is the formId itself requested
             if (!id) {
-                return this.form.id;
+                return '';
             }
             return `${this.form.id}:${id}`;
         }
