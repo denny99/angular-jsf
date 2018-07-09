@@ -9,6 +9,10 @@ import {AceColumnComponent} from '../ace-column/ace-column.component';
 import {PaginatorComponent} from '../datatable/paginator/paginator.component';
 import {FFacetComponent} from '../f-facet/f-facet.component';
 
+// TODO fix id calculation for elements in rows
+// IDEA: use a directive on the td element, the directive provides another HFormService for the children.
+// Alter HFormService to calc id correctly. Should Rename HFormService to IdService.
+
 @Component({
     selector: 'ace-data-table',
     templateUrl: './ace-data-table.component.html',
